@@ -1,0 +1,41 @@
+---
+title: "HW3 209"
+author: "Amanda Shen"
+date: "2018/2/15"
+output: pdf_document
+---
+
+![picture](12.png)
+
+
+
+# *What is the data that are being visualized? Where did it come from?*
+
+The data comes from NewYorkTime.com. The plot is about data of future expectation of GDP of America of 2010 to 2026 from Trump admin,private forecasters,Federal Reserve,C.B.O.
+
+
+
+
+# *Which data dimensions are mapped to which visual cues?*
+x_axis is year from 2010 to 2026 (one year base)
+y_axis is GDP in us dollars (trllion).
+There are four different variable: 
+  ### Trump admin
+  ### private forecasters
+  ### Federal Reserve
+  ### C.B.O.
+Which all are mapped in red color line
+
+
+
+#*How does this inform your understanding of the data?*
+
+Using the scatterplot to show four different expeation of the future GDP of the United State. We can clearly see how trump's expectation is way above any other three institution. Clearly, preident trump has a very positive expectation toward the future economy. 
+
+#*What does the visualization do well?*
+ The scale of the year and dollar amount (GDP) are chop off in a reasonable and confortable way. 
+
+# *What would you change?*
+I might consider to change the color of the line instead of using red and gry for all the variable. It's more easily to see and regonized. 
+```
+
