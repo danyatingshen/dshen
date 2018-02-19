@@ -1,0 +1,26 @@
+---
+title: "HW4"
+author: "Amanda Shen"
+date: "2018/2/18"
+---
+```{r}
+library(ggplot2)
+library(dplyr)
+library(mosaic)
+```
+```{r}
+housing <- read.csv("http://colindawson.net/data/landdata-states.csv")
+glimpse(housing)
+View(housing)
+```
+```{r}
+home_plot <- ggplot(housing,aes(y=State,x=Home.Price.Index))+geom_point(aes(color=Date),alpha=0.3,size=1.5,position = position_jitter(width=0,height=0.25))
+```
+```{r}
+home_plot
+home_plot+facet_grid(Home.Price.Index~Home.Value)
+
+```
+
+
+
